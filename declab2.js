@@ -129,6 +129,10 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 */
 
 //Code Here
+for ( let i = letters.length; i > -1 ; i-- ){
+
+console.log(letters[i])
+}
 
 
 ////////// Advanced Problems //////////
