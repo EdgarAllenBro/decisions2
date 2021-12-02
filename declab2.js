@@ -82,7 +82,7 @@ if (score >= 90) {
 ////////// PROBLEM 6 //////////
 
 // Do not edit the code below.
-var myFavoriteNumbers = [4,8,12,16,20,24];
+var myFavoriteNumbers = [4,8,12,16,20,24,];
 // Do not edit the code above.
 
 /*
@@ -90,7 +90,7 @@ var myFavoriteNumbers = [4,8,12,16,20,24];
 */
 
 //Code Here
-
+let somenum = myFavoriteNumbers[4]
 
 ////////// PROBLEM 7 //////////
 
@@ -98,6 +98,12 @@ var myFavoriteNumbers = [4,8,12,16,20,24];
 // Use an if statement to check the length of the 'myFavoriteNumbers' array. If it's less than 7, log 'There are not enough elements in this array' to the console. If the length is more than 7, reassign the value of 'someNum' to the value of the 7th element in the array. (Hint: how can you make sure that your code works for exactly 7 elements? What index do you use to get the 7th element?)
 
 //Code Here
+if (myFavoriteNumbers.length < 7) {
+  console.log(`There is not enough elements in this array`)
+} else if (myFavoriteNumbers.length <= 7) {
+  somenum = myFavoriteNumbers[6]
+  console.log(somenum)
+}
 
 
 ////////// PROBLEM 8 //////////
